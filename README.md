@@ -6,7 +6,7 @@ iOS与Android在这儿有点小区别，在iOS中如果系统注册了url scheme
 在IOS或Android平台上，adobe air打包的移动应用中也能自定义URL scheme，在air应用描述文件中定义。\<br>
 例，要注册一个自定URL scheme是my-scheme如下：
 
-android平台：
+Android平台：
 ---
 ```xml
 <android>
@@ -90,7 +90,7 @@ navigateToURL(new URLRequest(scheme + "://" + args));
 ```
 scheme就是你的app程序注册的值，args就是需要传过去的参数！
 
-android测试程序
+Android测试程序
 ---
 https://fir.im/AirCN<br>
 https://fir.im/AirEN
