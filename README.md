@@ -89,3 +89,8 @@ Adobe Air 调用的代码
 navigateToURL(new URLRequest(scheme + "://" + args));
 ```
 scheme就是你的app程序注册的值，args就是需要传过去的参数！
+
+安卓测试程序
+---
+https://fir.im/AirCN<br>
+https://fir.im/AirEN
