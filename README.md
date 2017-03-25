@@ -34,6 +34,12 @@ android平台：
     </manifestAdditions>
 </android>
 ```
+特别注意的是如果启用这个xml来配置air，来打包apk的时候。会默认读取Android目录下的图标图片，不会读取air打包的图片。但是加入:
+```xml
+android:icon="@drawable/icon"
+```
+这句话后就可以被识别到了，注意图标也需要像平常那样在air图标界面配置才行。
+
 IOS平台：
 ---
 ```xml
